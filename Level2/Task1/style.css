@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',  sans-serif;
+    font-weight: bold;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(100, 120, 233, 0.856);
+    background-size: cover;
+}
+
+.calculator{
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(252, 250, 250, 0.8);
+    background: rgb(252, 253, 253);
+
+}
+
+input{
+    width: 400px;
+    padding: 24px;
+    margin: 10px;
+    background: rgba(166, 196, 231, 0.3);
+    box-shadow: inset 0px 0px 8px rgba(160, 195, 241, 0.4);
+    font-size: 65px;
+    text-align: right;
+    color: #141414;
+    border: solid 2px rgba(142, 162, 248, 0.3);
+    border-radius: 15px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+
+}
+input::placeholder{
+    color: #161616;
+}
+
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: rgb(22, 22, 22);
+    font-size: 24px;
+    cursor: pointer;
+    border: solid 1px rgba(16, 111, 236, 0.4);
+    border-radius: 10px;
+    text-shadow: none;
+    box-shadow: -8px -8px 15px rgba(44, 134, 252, 0.4);
+    background-color: rgb(214, 236, 252);
+    
+}
+
+.ac, .del{
+    font-size: 20px;
+}
+
+button:hover{
+    color: #fff;
+    background: hsl(35, 95%, 50%);
+}
+
+.equalbtn{
+    color: rgb(12, 144, 238);
+    background-color: rgb(166, 216, 252);
+}
+.doubleSize{
+    color: #fff;
+    width: 142px;
+    background: rgb(12, 144, 280);
+
+}
+.operator{
+
+    color: rgb(12, 144, 238);
+    background-color: rgb(166, 216, 252);
+}
